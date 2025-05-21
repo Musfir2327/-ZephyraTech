@@ -1,4 +1,4 @@
-/* Feature.css */
+
 .features-section {
   padding: 100px 20px;
   text-align: center;
@@ -73,7 +73,7 @@
 
 
 
-/* Responsive design */
+
 @media (max-width: 768px) {
   .features-section {
     padding: 80px 20px;
