@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -8,17 +8,15 @@ function Header() {
       <h2 className="logo">MRKT.AI</h2>
       <nav>
         <ul className="nav-links">
-          <li>Home</li>
-          <li>Product</li>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Download</li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/product">Product</Link></li>
+          <li><Link to="/features">Features</Link></li>
+          <li><Link to="/pricing">Pricing</Link></li>
+          <li><Link to="/download">Download</Link></li>
         </ul>
       </nav>
       <button className="signin-btn">Sign In</button>
-      
     </header>
-    
   );
 }
 

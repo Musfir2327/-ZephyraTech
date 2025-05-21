@@ -45,6 +45,15 @@
   margin: 0;
   padding: 0;
 }
+.nav-links li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-links li a:hover {
+  color: #ff7f50; /* or any color you prefer */
+}
+
 
 .nav-links li {
   font-weight: 500;

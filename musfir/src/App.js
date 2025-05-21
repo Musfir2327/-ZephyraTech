@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Hero  from './components/Hero';
+import Product from './components/Product';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero/>}/>
         <Route path="/Header" element={<Header />} />
-        
+        <Route path="/Product" element={<Product />} />
+
       </Routes>
     </BrowserRouter>
   );
