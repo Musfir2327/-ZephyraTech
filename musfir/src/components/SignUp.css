@@ -1,0 +1,122 @@
+.signup-container {
+  min-height: 100vh;
+  background-color: #0f1c24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  font-family: sans-serif;
+}
+
+.signup-card {
+  background-color: #172a35;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.signup-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.signup-subtitle {
+  font-size: 0.875rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.beta-badge {
+  background-color: #0e3b4c;
+  color: #5bd4fc;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.google-button {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #444;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s;
+}
+
+.google-button:hover {
+  background-color: #1f3542;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0;
+  color: #777;
+}
+
+.divider hr {
+  flex-grow: 1;
+  border-color: #2c3e50;
+}
+
+.signup-form label {
+  font-size: 0.875rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: #0f1c24;
+  border: 1px solid #3b4b57;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #83e1ff;
+  color: #0f1c24;
+  font-weight: 600;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #5bd4fc;
+}
+
+.login-link {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #ccc;
+  margin-top: 1rem;
+}
+
+.login-link a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

@@ -7,6 +7,7 @@ import Product from './components/Product';
 import Feature from './components/Feature';
 import Pricing from './components/Pricing';
 import AboutUs from './components/About';
+import SignUp from './components/SignUp';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path="/Features" element={<Feature />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/SignUp" element={<SignUp />} />
+
       </Routes>
     </BrowserRouter>
   );

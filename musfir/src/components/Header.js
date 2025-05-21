@@ -1,8 +1,14 @@
 import React from 'react';
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleSignInClick = () => {
+    navigate('/signup'); // or '/login' if you mean a login page
+  };
+
   return (
     <header className="header">
       <h2 className="logo">MRKT.AI</h2>
@@ -15,7 +21,7 @@ function Header() {
           <li><Link to="/AboutUs">AboutUs</Link></li>
         </ul>
       </nav>
-      <button className="signin-btn">Sign In</button>
+      <button className="signin-btn" onClick={handleSignInClick}>Sign In</button>
     </header>
   );
 }
