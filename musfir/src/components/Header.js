@@ -12,7 +12,7 @@ function Header() {
           <li><Link to="/product">Product</Link></li>
           <li><Link to="/Features">Features</Link></li>
           <li><Link to="/pricing">Pricing</Link></li>
-          <li><Link to="/download">Download</Link></li>
+          <li><Link to="/AboutUs">AboutUs</Link></li>
         </ul>
       </nav>
       <button className="signin-btn">Sign In</button>
