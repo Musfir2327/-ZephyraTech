@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Hero  from './components/Hero';
 import Product from './components/Product';
 import Feature from './components/Feature';
-
+import Pricing from './components/Pricing';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Route path="/Header" element={<Header />} />
         <Route path="/Product" element={<Product />} />
         <Route path="/Features" element={<Feature />} />
+         <Route path="/pricing" element={<Pricing />} />
 
       </Routes>
     </BrowserRouter>
