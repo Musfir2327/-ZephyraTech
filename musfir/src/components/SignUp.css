@@ -61,8 +61,8 @@
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #ddd;
-  background: white;
-  color: #444;
+  background: rgb(3, 3, 3);
+  color: #0f0f0f;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -71,8 +71,9 @@
 
 .google-button:hover {
   background: #f5f5f5;
+  
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(143, 12, 12, 0.1);
 }
 
 .google-button:active {
@@ -214,7 +215,7 @@
 }
 
 .signup-form div:nth-child(1) {
-  animation-delay: 0.1s;
+  animation-delay: 0.1s; 
 }
 
 .signup-form div:nth-child(2) {
@@ -246,4 +247,7 @@
     font-size: 1.5rem;
   margin-bottom: 1.2rem;
   }
+}
+.google{
+  color: #0f0f0f;
 }

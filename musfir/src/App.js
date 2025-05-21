@@ -8,6 +8,7 @@ import Feature from './components/Feature';
 import Pricing from './components/Pricing';
 import AboutUs from './components/About';
 import SignUp from './components/SignUp';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Login" element={<Login />} />
 
       </Routes>
     </BrowserRouter>
