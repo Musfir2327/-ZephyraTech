@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 
 function Hero() {
   return (
@@ -11,7 +12,11 @@ function Hero() {
           <button className="get-started">Get Started</button>
           <button className="demo">View a Demo</button>
         </div>
-        <p className="rating">Trusted software rating <strong>4.9/5.0</strong></p>
+        <p className="rating">
+          
+          <FaStar color="gold" /><FaStar color="gold" /><FaStar color="gold" /><FaStar color="gold" /><FaStarHalfAlt color="gold" />
+          Trusted software rating <strong>4.9/5.0</strong>{' '}
+        </p>
       </div>
       <div className="hero-image">
         <img src="https://th.bing.com/th/id/OIP.zXiNxkM_RwJ78WVEsJH4nwHaE8?rs=1&pid=ImgDetMain" alt="AI Bot" />
