@@ -1,4 +1,4 @@
-/* Base Styles */
+
 .page-container {
   display: flex;
   min-height: 100vh;
@@ -8,7 +8,7 @@
 
 .left-section, .right-section {
   flex: 1;
-  padding: 120px;
+  padding: 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
   background: white;
 }
 
-/* Info Block Styles */
+
 .info-block {
   max-width: 600px;
   margin: 0 auto;
@@ -65,7 +65,7 @@
   opacity: 0.9;
 }
 
-/* Form Styles */
+
 .form-container {
   max-width: 500px;
   margin: 0 auto;
@@ -127,7 +127,7 @@ textarea:focus ~ .focus-border {
   width: 100%;
 }
 
-/* Button Styles */
+
 .submit-btn {
   display: flex;
   align-items: center;
@@ -177,7 +177,7 @@ textarea:focus ~ .focus-border {
   transform: translateY(-1px);
 }
 
-/* Success Message */
+
 .success-message {
   text-align: center;
   padding: 2rem;
@@ -218,7 +218,7 @@ textarea:focus ~ .focus-border {
   color: #6c757d;
 }
 
-/* Animations */
+
 @keyframes stroke {
   100% {
     stroke-dashoffset: 0;
@@ -275,7 +275,7 @@ textarea:focus ~ .focus-border {
   }
 }
 
-/* Responsive Design */
+
 @media (max-width: 992px) {
   .page-container {
     flex-direction: column;
